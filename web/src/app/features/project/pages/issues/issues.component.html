@@ -1,0 +1,66 @@
+<va-header>
+    <h1 class="mat-h1">Issues</h1>
+    <va-bom-select [force]="true" />
+    <div class="va-header__actions"></div>
+</va-header>
+
+<div class="issues" [formGroup]="form">
+    <div class="issues__filter-container">
+        <div class="issues__filter">
+            <section>
+                <p class="header weak">Status</p>
+                <ul>
+                    <li><mat-checkbox formControlName="open">Open</mat-checkbox></li>
+                    <li><mat-checkbox formControlName="resolved">Resolved</mat-checkbox></li>
+                    <li><mat-checkbox formControlName="ignored">Ignored</mat-checkbox></li>
+                </ul>
+            </section>
+            <section>
+                <p class="header weak">Severity</p>
+                <ul>
+                    <li><mat-checkbox formControlName="critical">Critical</mat-checkbox></li>
+                    <li><mat-checkbox formControlName="high">High</mat-checkbox></li>
+                    <li><mat-checkbox formControlName="medium">Medium</mat-checkbox></li>
+                    <li><mat-checkbox formControlName="low">Low</mat-checkbox></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <div class="issues__results">
+        <div class="issues__search">
+            <mat-form-field class="search" appearance="outline" subscriptSizing="dynamic">
+                <mat-label>Search for issues...</mat-label>
+                <input matInput formControlName="keyword" />
+            </mat-form-field>
+        </div>
+
+        <mat-paginator
+            *ngIf="vulns.length > 0"
+            (page)="handlePageEvent($event)"
+            [length]="totalVulns"
+            [pageIndex]="page()"
+            [pageSize]="pageSize()"
+            [pageSizeOptions]="[5, 10, 25, 100]"
+            aria-label="Select page"
+        />
+
+        <va-vuln-card *ngFor="let item of vulns" [vuln]="item" />
+
+        <div class="not-found" *ngIf="!loading && vulns.length === 0">
+            <img ngSrc="../../../../../assets/undraw_empty_street_re_atjq.svg" width="300" height="200" alt="empty street" priority />
+            <h2 class="mat-h2">No issues found</h2>
+            <p class="mat-body-2 weak">You're good to go!</p>
+        </div>
+
+        <mat-paginator
+            *ngIf="vulns.length > 0"
+            (page)="handlePageEvent($event)"
+            [length]="totalVulns"
+            [pageIndex]="page()"
+            [pageSize]="pageSize()"
+            [pageSizeOptions]="[5, 10, 25, 100]"
+            aria-label="Select page"
+        />
+    </div>
+</div>

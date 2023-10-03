@@ -1,0 +1,4410 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:0f71a9a6-6b49-4b7a-a564-d8cd21d951f8",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-08-09T12:09:51.358Z",
+        "tools": [
+            {
+                "vendor": "cyclonedx",
+                "name": "cdxgen",
+                "version": "9.3.2"
+            }
+        ],
+        "authors": [
+            {
+                "name": "Prabhu Subramanian",
+                "email": "prabhu@appthreat.com"
+            }
+        ],
+        "component": {
+            "name": "wahlzeit",
+            "type": "application",
+            "group": "",
+            "version": "latest",
+            "purl": "pkg:maven/wahlzeit@latest?type=jar",
+            "bom-ref": "pkg:maven/wahlzeit@latest?type=jar",
+            "components": []
+        }
+    },
+    "components": [
+        {
+            "author": "",
+            "publisher": "",
+            "group": "javax.servlet",
+            "name": "javax.servlet-api",
+            "version": "4.0.1",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api@4.0.1?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/javax.servlet/javax.servlet-api@4.0.1?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "compileClasspath"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "javax.websocket",
+            "name": "javax.websocket-api",
+            "version": "1.0",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/javax.websocket/javax.websocket-api@1.0?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/javax.websocket/javax.websocket-api@1.0?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "compileClasspath"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.postgresql",
+            "name": "postgresql",
+            "version": "9.3-1104-jdbc41",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.postgresql/postgresql@9.3-1104-jdbc41?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.postgresql/postgresql@9.3-1104-jdbc41?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "compileClasspath"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "log4j",
+            "name": "log4j",
+            "version": "1.2.17",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/log4j/log4j@1.2.17?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/log4j/log4j@1.2.17?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "compileClasspath"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "com.sun.mail",
+            "name": "javax.mail",
+            "version": "1.6.2",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/com.sun.mail/javax.mail@1.6.2?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/com.sun.mail/javax.mail@1.6.2?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "compileClasspath"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "javax.activation",
+            "name": "activation",
+            "version": "1.1",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/javax.activation/activation@1.1?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/javax.activation/activation@1.1?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "compileClasspath"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "javax.servlet",
+            "name": "javax.servlet-api",
+            "version": "3.1.0",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.gretty",
+            "name": "gretty-runner-jetty7",
+            "version": "3.0.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.gretty/gretty-runner-jetty7@3.0.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.gretty/gretty-runner-jetty7@3.0.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.gretty",
+            "name": "gretty-runner-jetty",
+            "version": "3.0.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.gretty/gretty-runner-jetty@3.0.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.gretty/gretty-runner-jetty@3.0.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.gretty",
+            "name": "gretty-runner",
+            "version": "3.0.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.gretty/gretty-runner@3.0.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.gretty/gretty-runner@3.0.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.codehaus.groovy",
+            "name": "groovy",
+            "version": "2.5.10",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.codehaus.groovy/groovy@2.5.10?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.codehaus.groovy/groovy@2.5.10?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.codehaus.groovy",
+            "name": "groovy-cli-commons",
+            "version": "2.5.10",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.codehaus.groovy/groovy-cli-commons@2.5.10?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.codehaus.groovy/groovy-cli-commons@2.5.10?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "commons-cli",
+            "name": "commons-cli",
+            "version": "1.4",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/commons-cli/commons-cli@1.4?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/commons-cli/commons-cli@1.4?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.codehaus.groovy",
+            "name": "groovy-json",
+            "version": "2.5.10",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.codehaus.groovy/groovy-json@2.5.10?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.codehaus.groovy/groovy-json@2.5.10?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "commons-io",
+            "name": "commons-io",
+            "version": "2.4",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/commons-io/commons-io@2.4?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/commons-io/commons-io@2.4?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "ch.qos.logback",
+            "name": "logback-classic",
+            "version": "1.1.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/ch.qos.logback/logback-classic@1.1.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/ch.qos.logback/logback-classic@1.1.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "ch.qos.logback",
+            "name": "logback-core",
+            "version": "1.1.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/ch.qos.logback/logback-core@1.1.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/ch.qos.logback/logback-core@1.1.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.slf4j",
+            "name": "slf4j-api",
+            "version": "1.7.30",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.gretty",
+            "name": "gretty-common",
+            "version": "3.0.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.gretty/gretty-common@3.0.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.gretty/gretty-common@3.0.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "javax.servlet",
+            "name": "servlet-api",
+            "version": "2.5",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.5?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/javax.servlet/servlet-api@2.5?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-server",
+            "version": "7.6.21.v20160908",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server@7.6.21.v20160908?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-server@7.6.21.v20160908?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-continuation",
+            "version": "7.6.21.v20160908",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-continuation@7.6.21.v20160908?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-continuation@7.6.21.v20160908?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-http",
+            "version": "7.6.21.v20160908",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-http@7.6.21.v20160908?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-http@7.6.21.v20160908?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-io",
+            "version": "7.6.21.v20160908",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-io@7.6.21.v20160908?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-io@7.6.21.v20160908?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-util",
+            "version": "7.6.21.v20160908",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-util@7.6.21.v20160908?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-util@7.6.21.v20160908?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-servlet",
+            "version": "7.6.21.v20160908",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet@7.6.21.v20160908?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@7.6.21.v20160908?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-security",
+            "version": "7.6.21.v20160908",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-security@7.6.21.v20160908?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-security@7.6.21.v20160908?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-webapp",
+            "version": "7.6.21.v20160908",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-webapp@7.6.21.v20160908?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-webapp@7.6.21.v20160908?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-xml",
+            "version": "7.6.21.v20160908",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-xml@7.6.21.v20160908?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-xml@7.6.21.v20160908?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-jsp",
+            "version": "7.6.21.v20160908",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jsp@7.6.21.v20160908?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jsp@7.6.21.v20160908?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "javax.servlet.jsp",
+            "version": "2.1.0.v201105211820",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp@2.1.0.v201105211820?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp@2.1.0.v201105211820?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "org.apache.jasper.glassfish",
+            "version": "2.1.0.v201110031002",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/org.apache.jasper.glassfish@2.1.0.v201110031002?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/org.apache.jasper.glassfish@2.1.0.v201110031002?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "javax.servlet.jsp.jstl",
+            "version": "1.2.0.v201105211821",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp.jstl@1.2.0.v201105211821?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp.jstl@1.2.0.v201105211821?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "org.apache.taglibs.standard.glassfish",
+            "version": "1.2.0.v201112081803",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/org.apache.taglibs.standard.glassfish@1.2.0.v201112081803?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/org.apache.taglibs.standard.glassfish@1.2.0.v201112081803?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "javax.el",
+            "version": "2.1.0.v201105211819",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/javax.el@2.1.0.v201105211819?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/javax.el@2.1.0.v201105211819?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "com.sun.el",
+            "version": "1.0.0.v201105211818",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/com.sun.el@1.0.0.v201105211818?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/com.sun.el@1.0.0.v201105211818?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "org.eclipse.jdt.core",
+            "version": "3.7.1",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/org.eclipse.jdt.core@3.7.1?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/org.eclipse.jdt.core@3.7.1?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-plus",
+            "version": "7.6.21.v20160908",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-plus@7.6.21.v20160908?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-plus@7.6.21.v20160908?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "javax.transaction",
+            "version": "1.1.1.v201105210645",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/javax.transaction@1.1.1.v201105210645?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/javax.transaction@1.1.1.v201105210645?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-jndi",
+            "version": "7.6.21.v20160908",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jndi@7.6.21.v20160908?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jndi@7.6.21.v20160908?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "javax.mail.glassfish",
+            "version": "1.4.1.v201005082020",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/javax.mail.glassfish@1.4.1.v201005082020?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/javax.mail.glassfish@1.4.1.v201005082020?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "javax.activation",
+            "version": "1.1.0.v201105071233",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/javax.activation@1.1.0.v201105071233?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/javax.activation@1.1.0.v201105071233?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.gretty",
+            "name": "gretty-runner-jetty8",
+            "version": "3.0.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.gretty/gretty-runner-jetty8@3.0.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.gretty/gretty-runner-jetty8@3.0.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "javax.servlet",
+            "name": "javax.servlet-api",
+            "version": "3.0.1",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api@3.0.1?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/javax.servlet/javax.servlet-api@3.0.1?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-server",
+            "version": "8.1.22.v20160922",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server@8.1.22.v20160922?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-server@8.1.22.v20160922?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-continuation",
+            "version": "8.1.22.v20160922",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-continuation@8.1.22.v20160922?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-continuation@8.1.22.v20160922?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-http",
+            "version": "8.1.22.v20160922",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-http@8.1.22.v20160922?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-http@8.1.22.v20160922?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-io",
+            "version": "8.1.22.v20160922",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-io@8.1.22.v20160922?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-io@8.1.22.v20160922?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-util",
+            "version": "8.1.22.v20160922",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-util@8.1.22.v20160922?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-util@8.1.22.v20160922?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-servlet",
+            "version": "8.1.22.v20160922",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet@8.1.22.v20160922?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@8.1.22.v20160922?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-security",
+            "version": "8.1.22.v20160922",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-security@8.1.22.v20160922?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-security@8.1.22.v20160922?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-webapp",
+            "version": "8.1.22.v20160922",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-webapp@8.1.22.v20160922?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-webapp@8.1.22.v20160922?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-xml",
+            "version": "8.1.22.v20160922",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-xml@8.1.22.v20160922?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-xml@8.1.22.v20160922?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-jsp",
+            "version": "8.1.22.v20160922",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jsp@8.1.22.v20160922?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jsp@8.1.22.v20160922?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "javax.servlet.jsp",
+            "version": "2.2.0.v201112011158",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp@2.2.0.v201112011158?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp@2.2.0.v201112011158?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "org.apache.jasper.glassfish",
+            "version": "2.2.2.v201112011158",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/org.apache.jasper.glassfish@2.2.2.v201112011158?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/org.apache.jasper.glassfish@2.2.2.v201112011158?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "javax.el",
+            "version": "2.2.0.v201108011116",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/javax.el@2.2.0.v201108011116?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/javax.el@2.2.0.v201108011116?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "com.sun.el",
+            "version": "2.2.0.v201108011116",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/com.sun.el@2.2.0.v201108011116?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/com.sun.el@2.2.0.v201108011116?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-annotations",
+            "version": "8.1.22.v20160922",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-annotations@8.1.22.v20160922?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-annotations@8.1.22.v20160922?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-plus",
+            "version": "8.1.22.v20160922",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-plus@8.1.22.v20160922?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-plus@8.1.22.v20160922?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-jndi",
+            "version": "8.1.22.v20160922",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jndi@8.1.22.v20160922?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jndi@8.1.22.v20160922?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "javax.annotation",
+            "version": "1.1.0.v201108011116",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/javax.annotation@1.1.0.v201108011116?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/javax.annotation@1.1.0.v201108011116?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "org.objectweb.asm",
+            "version": "3.1.0.v200803061910",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/org.objectweb.asm@3.1.0.v200803061910?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/org.objectweb.asm@3.1.0.v200803061910?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.gretty",
+            "name": "gretty-runner-jetty9",
+            "version": "3.0.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.gretty/gretty-runner-jetty9@3.0.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.gretty/gretty-runner-jetty9@3.0.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-server",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-server@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-http",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-http@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-util",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-util@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-io",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-io@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-servlet",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-security",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-security@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-webapp",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-xml",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-xml@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-xml@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-jsp",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jsp@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jsp@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.toolchain",
+            "name": "jetty-schemas",
+            "version": "3.1.M0",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1.M0?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1.M0?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "javax.servlet.jsp",
+            "name": "javax.servlet.jsp-api",
+            "version": "2.3.1",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/javax.servlet.jsp/javax.servlet.jsp-api@2.3.1?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/javax.servlet.jsp/javax.servlet.jsp-api@2.3.1?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.glassfish.web",
+            "name": "javax.servlet.jsp",
+            "version": "2.3.2",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.glassfish.web/javax.servlet.jsp@2.3.2?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.glassfish.web/javax.servlet.jsp@2.3.2?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.glassfish",
+            "name": "javax.el",
+            "version": "3.0.0",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.glassfish/javax.el@3.0.0?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.glassfish/javax.el@3.0.0?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.glassfish.web",
+            "name": "javax.servlet.jsp.jstl",
+            "version": "1.2.2",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.glassfish.web/javax.servlet.jsp.jstl@1.2.2?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.glassfish.web/javax.servlet.jsp.jstl@1.2.2?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.orbit",
+            "name": "org.eclipse.jdt.core",
+            "version": "3.8.2.v20130121",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/org.eclipse.jdt.core@3.8.2.v20130121?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/org.eclipse.jdt.core@3.8.2.v20130121?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-annotations",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-annotations@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-annotations@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-plus",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-plus@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-plus@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-jndi",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jndi@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jndi@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "javax.annotation",
+            "name": "javax.annotation-api",
+            "version": "1.2",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.ow2.asm",
+            "name": "asm",
+            "version": "8.0.1",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.ow2.asm/asm@8.0.1?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.ow2.asm/asm@8.0.1?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.ow2.asm",
+            "name": "asm-commons",
+            "version": "8.0.1",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.ow2.asm/asm-commons@8.0.1?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.ow2.asm/asm-commons@8.0.1?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.ow2.asm",
+            "name": "asm-tree",
+            "version": "8.0.1",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.ow2.asm/asm-tree@8.0.1?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.ow2.asm/asm-tree@8.0.1?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.ow2.asm",
+            "name": "asm-analysis",
+            "version": "8.0.1",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.ow2.asm/asm-analysis@8.0.1?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.ow2.asm/asm-analysis@8.0.1?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "javax-websocket-server-impl",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "javax-websocket-client-impl",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "websocket-client",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "websocket-common",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "websocket-api",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "websocket-server",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "websocket-servlet",
+            "version": "9.2.26.v20180806",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.2.26.v20180806?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.2.26.v20180806?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.gretty",
+            "name": "gretty-runner-jetty93",
+            "version": "3.0.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.gretty/gretty-runner-jetty93@3.0.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.gretty/gretty-runner-jetty93@3.0.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-server",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-server@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-http",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-http@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-util",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-util@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-io",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-io@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-servlet",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-security",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-security@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-webapp",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-xml",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-xml@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-xml@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "apache-jsp",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/apache-jsp@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/apache-jsp@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.toolchain",
+            "name": "jetty-schemas",
+            "version": "3.1",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.mortbay.jasper",
+            "name": "apache-jsp",
+            "version": "8.0.33",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.mortbay.jasper/apache-jsp@8.0.33?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.mortbay.jasper/apache-jsp@8.0.33?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.mortbay.jasper",
+            "name": "apache-el",
+            "version": "8.0.33",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.mortbay.jasper/apache-el@8.0.33?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.mortbay.jasper/apache-el@8.0.33?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jdt.core.compiler",
+            "name": "ecj",
+            "version": "4.4.2",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jdt.core.compiler/ecj@4.4.2?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jdt.core.compiler/ecj@4.4.2?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-annotations",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-annotations@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-annotations@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-plus",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-plus@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-plus@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-jndi",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jndi@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jndi@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "javax-websocket-server-impl",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "javax-websocket-client-impl",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "websocket-client",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "websocket-common",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "websocket-api",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "websocket-server",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "websocket-servlet",
+            "version": "9.3.28.v20191105",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.3.28.v20191105?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.3.28.v20191105?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.gretty",
+            "name": "gretty-runner-jetty94",
+            "version": "3.0.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.gretty/gretty-runner-jetty94@3.0.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.gretty/gretty-runner-jetty94@3.0.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-server",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-http",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-util",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-io",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-servlet",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-security",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-webapp",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-xml",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "apache-jsp",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/apache-jsp@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/apache-jsp@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.toolchain",
+            "name": "jetty-schemas",
+            "version": "3.1.2",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1.2?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1.2?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.mortbay.jasper",
+            "name": "apache-jsp",
+            "version": "8.5.40",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.mortbay.jasper/apache-jsp@8.5.40?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.mortbay.jasper/apache-jsp@8.5.40?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.mortbay.jasper",
+            "name": "apache-el",
+            "version": "8.5.40",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.mortbay.jasper/apache-el@8.5.40?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.mortbay.jasper/apache-el@8.5.40?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jdt",
+            "name": "ecj",
+            "version": "3.17.0",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jdt/ecj@3.17.0?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jdt/ecj@3.17.0?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-annotations",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-annotations@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-annotations@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-plus",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-plus@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-plus@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-jndi",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jndi@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jndi@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "javax.annotation",
+            "name": "javax.annotation-api",
+            "version": "1.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/javax.annotation/javax.annotation-api@1.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/javax.annotation/javax.annotation-api@1.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "javax-websocket-server-impl",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "javax-websocket-client-impl",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "websocket-client",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty",
+            "name": "jetty-client",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "websocket-common",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "websocket-api",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "javax.websocket",
+            "name": "javax.websocket-client-api",
+            "version": "1.0",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/javax.websocket/javax.websocket-client-api@1.0?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/javax.websocket/javax.websocket-client-api@1.0?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "websocket-server",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jetty.websocket",
+            "name": "websocket-servlet",
+            "version": "9.4.24.v20191120",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.24.v20191120?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.24.v20191120?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.gretty",
+            "name": "gretty-runner-tomcat85",
+            "version": "3.0.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.gretty/gretty-runner-tomcat85@3.0.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.gretty/gretty-runner-tomcat85@3.0.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.gretty",
+            "name": "gretty-runner-tomcat8plus",
+            "version": "3.0.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.gretty/gretty-runner-tomcat8plus@3.0.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.gretty/gretty-runner-tomcat8plus@3.0.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.gretty",
+            "name": "gretty-runner-tomcat",
+            "version": "3.0.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.gretty/gretty-runner-tomcat@3.0.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.gretty/gretty-runner-tomcat@3.0.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.slf4j",
+            "name": "log4j-over-slf4j",
+            "version": "1.7.30",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.slf4j/log4j-over-slf4j@1.7.30?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.slf4j/log4j-over-slf4j@1.7.30?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.apache.tomcat.embed",
+            "name": "tomcat-embed-core",
+            "version": "8.5.49",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@8.5.49?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@8.5.49?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.apache.tomcat",
+            "name": "tomcat-annotations-api",
+            "version": "8.5.49",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@8.5.49?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@8.5.49?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.apache.tomcat.embed",
+            "name": "tomcat-embed-el",
+            "version": "8.5.49",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@8.5.49?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@8.5.49?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.apache.tomcat.embed",
+            "name": "tomcat-embed-jasper",
+            "version": "8.5.49",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@8.5.49?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@8.5.49?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jdt",
+            "name": "ecj",
+            "version": "3.12.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jdt/ecj@3.12.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jdt/ecj@3.12.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.apache.tomcat.embed",
+            "name": "tomcat-embed-websocket",
+            "version": "8.5.49",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@8.5.49?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@8.5.49?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.gretty",
+            "name": "gretty-runner-tomcat9",
+            "version": "3.0.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.gretty/gretty-runner-tomcat9@3.0.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.gretty/gretty-runner-tomcat9@3.0.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.apache.tomcat.embed",
+            "name": "tomcat-embed-core",
+            "version": "9.0.34",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.34?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.34?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.apache.tomcat",
+            "name": "tomcat-annotations-api",
+            "version": "9.0.34",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.34?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.34?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.apache.tomcat.embed",
+            "name": "tomcat-embed-el",
+            "version": "9.0.34",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.34?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.34?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.apache.tomcat.embed",
+            "name": "tomcat-embed-jasper",
+            "version": "9.0.34",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.34?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.34?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.eclipse.jdt",
+            "name": "ecj",
+            "version": "3.18.0",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.eclipse.jdt/ecj@3.18.0?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.eclipse.jdt/ecj@3.18.0?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.apache.tomcat.embed",
+            "name": "tomcat-embed-websocket",
+            "version": "9.0.34",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.34?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.34?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.springframework",
+            "name": "springloaded",
+            "version": "1.2.8.RELEASE",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.springframework/springloaded@1.2.8.RELEASE?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.springframework/springloaded@1.2.8.RELEASE?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.gretty",
+            "name": "gretty-starter",
+            "version": "3.0.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.gretty/gretty-starter@3.0.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.gretty/gretty-starter@3.0.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.gretty",
+            "name": "gretty-core",
+            "version": "3.0.3",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.gretty/gretty-core@3.0.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.gretty/gretty-core@3.0.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "commons-configuration",
+            "name": "commons-configuration",
+            "version": "1.10",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/commons-configuration/commons-configuration@1.10?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/commons-configuration/commons-configuration@1.10?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "commons-lang",
+            "name": "commons-lang",
+            "version": "2.6",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/commons-lang/commons-lang@2.6?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/commons-lang/commons-lang@2.6?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "commons-logging",
+            "name": "commons-logging",
+            "version": "1.1.1",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.apache.commons",
+            "name": "commons-lang3",
+            "version": "3.3.2",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.apache.commons/commons-lang3@3.3.2?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.3.2?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.bouncycastle",
+            "name": "bcprov-jdk15on",
+            "version": "1.60",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.60?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.60?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.springframework.boot",
+            "name": "spring-boot-devtools",
+            "version": "2.0.2.RELEASE",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.0.2.RELEASE?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.0.2.RELEASE?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.springframework.boot",
+            "name": "spring-boot",
+            "version": "2.0.2.RELEASE",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.springframework.boot/spring-boot@2.0.2.RELEASE?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.springframework.boot/spring-boot@2.0.2.RELEASE?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.springframework",
+            "name": "spring-core",
+            "version": "5.0.6.RELEASE",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.springframework/spring-core@5.0.6.RELEASE?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.springframework/spring-core@5.0.6.RELEASE?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.springframework",
+            "name": "spring-jcl",
+            "version": "5.0.6.RELEASE",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.springframework/spring-jcl@5.0.6.RELEASE?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.springframework/spring-jcl@5.0.6.RELEASE?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.springframework",
+            "name": "spring-context",
+            "version": "5.0.6.RELEASE",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.springframework/spring-context@5.0.6.RELEASE?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.springframework/spring-context@5.0.6.RELEASE?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.springframework",
+            "name": "spring-aop",
+            "version": "5.0.6.RELEASE",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.springframework/spring-aop@5.0.6.RELEASE?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.springframework/spring-aop@5.0.6.RELEASE?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.springframework",
+            "name": "spring-beans",
+            "version": "5.0.6.RELEASE",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.springframework/spring-beans@5.0.6.RELEASE?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.springframework/spring-beans@5.0.6.RELEASE?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.springframework",
+            "name": "spring-expression",
+            "version": "5.0.6.RELEASE",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.springframework/spring-expression@5.0.6.RELEASE?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.springframework/spring-expression@5.0.6.RELEASE?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.springframework.boot",
+            "name": "spring-boot-autoconfigure",
+            "version": "2.0.2.RELEASE",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.0.2.RELEASE?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.0.2.RELEASE?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "junit",
+            "name": "junit",
+            "version": "4.12",
+            "description": "",
+            "scope": "optional",
+            "licenses": [],
+            "purl": "pkg:maven/junit/junit@4.12?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/junit/junit@4.12?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "testCompileClasspath"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "org.hamcrest",
+            "name": "hamcrest-core",
+            "version": "1.3",
+            "description": "",
+            "scope": "optional",
+            "licenses": [],
+            "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+            "type": "library",
+            "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+            "properties": [
+                {
+                    "name": "GradleProfileName",
+                    "value": "testCompileClasspath"
+                }
+            ]
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "actions",
+            "name": "setup-java",
+            "version": "v1",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:github/actions/setup-java@v1",
+            "type": "application",
+            "bom-ref": "pkg:github/actions/setup-java@v1"
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "actions",
+            "name": "checkout",
+            "version": "v2",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:github/actions/checkout@v2",
+            "type": "application",
+            "bom-ref": "pkg:github/actions/checkout@v2"
+        },
+        {
+            "author": "",
+            "publisher": "",
+            "group": "",
+            "name": "gradle",
+            "version": "wrapper",
+            "description": "",
+            "licenses": [],
+            "purl": "pkg:maven/gradle@wrapper",
+            "type": "library",
+            "bom-ref": "pkg:maven/gradle@wrapper",
+            "properties": [
+                {
+                    "name": "SrcFile",
+                    "value": "gradle-wrapper.jar"
+                }
+            ]
+        }
+    ],
+    "services": [],
+    "dependencies": [
+        {
+            "ref": "pkg:maven/wahlzeit@latest?type=jar",
+            "dependsOn": [
+                "pkg:maven/javax.servlet/javax.servlet-api@4.0.1?type=jar",
+                "pkg:maven/javax.websocket/javax.websocket-api@1.0?type=jar",
+                "pkg:maven/org.postgresql/postgresql@9.3-1104-jdbc41?type=jar",
+                "pkg:maven/log4j/log4j@1.2.17?type=jar",
+                "pkg:maven/com.sun.mail/javax.mail@1.6.2?type=jar",
+                "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+                "pkg:maven/org.gretty/gretty-runner-jetty7@3.0.3?type=jar",
+                "pkg:maven/org.gretty/gretty-runner-jetty8@3.0.3?type=jar",
+                "pkg:maven/org.gretty/gretty-runner-jetty9@3.0.3?type=jar",
+                "pkg:maven/org.gretty/gretty-runner-jetty93@3.0.3?type=jar",
+                "pkg:maven/org.gretty/gretty-runner-jetty94@3.0.3?type=jar",
+                "pkg:maven/org.gretty/gretty-runner-tomcat85@3.0.3?type=jar",
+                "pkg:maven/org.gretty/gretty-runner-tomcat9@3.0.3?type=jar",
+                "pkg:maven/org.springframework/springloaded@1.2.8.RELEASE?type=jar",
+                "pkg:maven/org.gretty/gretty-starter@3.0.3?type=jar",
+                "pkg:maven/junit/junit@4.12?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/javax.servlet/javax.servlet-api@4.0.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/javax.websocket/javax.websocket-api@1.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.postgresql/postgresql@9.3-1104-jdbc41?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/log4j/log4j@1.2.17?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.sun.mail/javax.mail@1.6.2?type=jar",
+            "dependsOn": ["pkg:maven/javax.activation/activation@1.1?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/javax.activation/activation@1.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.gretty/gretty-runner-jetty7@3.0.3?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.gretty/gretty-runner-jetty@3.0.3?type=jar",
+                "pkg:maven/javax.servlet/servlet-api@2.5?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-server@7.6.21.v20160908?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-servlet@7.6.21.v20160908?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-webapp@7.6.21.v20160908?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-security@7.6.21.v20160908?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-jsp@7.6.21.v20160908?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-plus@7.6.21.v20160908?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.gretty/gretty-runner-jetty@3.0.3?type=jar",
+            "dependsOn": ["pkg:maven/org.gretty/gretty-runner@3.0.3?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.gretty/gretty-runner@3.0.3?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.codehaus.groovy/groovy@2.5.10?type=jar",
+                "pkg:maven/org.codehaus.groovy/groovy-cli-commons@2.5.10?type=jar",
+                "pkg:maven/org.codehaus.groovy/groovy-json@2.5.10?type=jar",
+                "pkg:maven/commons-cli/commons-cli@1.4?type=jar",
+                "pkg:maven/commons-io/commons-io@2.4?type=jar",
+                "pkg:maven/ch.qos.logback/logback-classic@1.1.3?type=jar",
+                "pkg:maven/org.gretty/gretty-common@3.0.3?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.codehaus.groovy/groovy@2.5.10?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.codehaus.groovy/groovy-cli-commons@2.5.10?type=jar",
+            "dependsOn": ["pkg:maven/org.codehaus.groovy/groovy@2.5.10?type=jar", "pkg:maven/commons-cli/commons-cli@1.4?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/commons-cli/commons-cli@1.4?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.codehaus.groovy/groovy-json@2.5.10?type=jar",
+            "dependsOn": ["pkg:maven/org.codehaus.groovy/groovy@2.5.10?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/commons-io/commons-io@2.4?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/ch.qos.logback/logback-classic@1.1.3?type=jar",
+            "dependsOn": ["pkg:maven/ch.qos.logback/logback-core@1.1.3?type=jar", "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/ch.qos.logback/logback-core@1.1.3?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.gretty/gretty-common@3.0.3?type=jar",
+            "dependsOn": ["pkg:maven/org.codehaus.groovy/groovy@2.5.10?type=jar", "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/javax.servlet/servlet-api@2.5?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-server@7.6.21.v20160908?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-continuation@7.6.21.v20160908?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-http@7.6.21.v20160908?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-continuation@7.6.21.v20160908?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-http@7.6.21.v20160908?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-io@7.6.21.v20160908?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-io@7.6.21.v20160908?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-util@7.6.21.v20160908?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-util@7.6.21.v20160908?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@7.6.21.v20160908?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-security@7.6.21.v20160908?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-security@7.6.21.v20160908?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-server@7.6.21.v20160908?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-webapp@7.6.21.v20160908?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-xml@7.6.21.v20160908?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-servlet@7.6.21.v20160908?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-xml@7.6.21.v20160908?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-util@7.6.21.v20160908?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-jsp@7.6.21.v20160908?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp@2.1.0.v201105211820?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/org.apache.jasper.glassfish@2.1.0.v201110031002?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp.jstl@1.2.0.v201105211821?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/org.apache.taglibs.standard.glassfish@1.2.0.v201112081803?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/javax.el@2.1.0.v201105211819?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/com.sun.el@1.0.0.v201105211818?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/org.eclipse.jdt.core@3.7.1?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp@2.1.0.v201105211820?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/org.apache.jasper.glassfish@2.1.0.v201110031002?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp@2.1.0.v201105211820?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp.jstl@1.2.0.v201105211821?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp@2.1.0.v201105211820?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp@2.2.0.v201112011158?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/org.apache.taglibs.standard.glassfish@1.2.0.v201112081803?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp.jstl@1.2.0.v201105211821?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/javax.el@2.1.0.v201105211819?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/com.sun.el@1.0.0.v201105211818?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/org.eclipse.jdt.core@3.7.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-plus@7.6.21.v20160908?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.orbit/javax.transaction@1.1.1.v201105210645?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-webapp@7.6.21.v20160908?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-jndi@7.6.21.v20160908?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/javax.transaction@1.1.1.v201105210645?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-jndi@7.6.21.v20160908?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-server@7.6.21.v20160908?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/javax.mail.glassfish@1.4.1.v201005082020?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/javax.mail.glassfish@1.4.1.v201005082020?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty.orbit/javax.activation@1.1.0.v201105071233?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/javax.activation@1.1.0.v201105071233?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.gretty/gretty-runner-jetty8@3.0.3?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.gretty/gretty-runner-jetty@3.0.3?type=jar",
+                "pkg:maven/javax.servlet/javax.servlet-api@3.0.1?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-server@8.1.22.v20160922?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-servlet@8.1.22.v20160922?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-webapp@8.1.22.v20160922?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-security@8.1.22.v20160922?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-jsp@8.1.22.v20160922?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-annotations@8.1.22.v20160922?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-plus@8.1.22.v20160922?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/javax.servlet/javax.servlet-api@3.0.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-server@8.1.22.v20160922?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-continuation@8.1.22.v20160922?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-http@8.1.22.v20160922?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-continuation@8.1.22.v20160922?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-http@8.1.22.v20160922?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-io@8.1.22.v20160922?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-io@8.1.22.v20160922?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-util@8.1.22.v20160922?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-util@8.1.22.v20160922?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@8.1.22.v20160922?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-security@8.1.22.v20160922?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-security@8.1.22.v20160922?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-server@8.1.22.v20160922?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-webapp@8.1.22.v20160922?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-xml@8.1.22.v20160922?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-servlet@8.1.22.v20160922?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-xml@8.1.22.v20160922?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-util@8.1.22.v20160922?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-jsp@8.1.22.v20160922?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp@2.2.0.v201112011158?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/org.apache.jasper.glassfish@2.2.2.v201112011158?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp.jstl@1.2.0.v201105211821?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/org.apache.taglibs.standard.glassfish@1.2.0.v201112081803?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/javax.el@2.2.0.v201108011116?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/com.sun.el@2.2.0.v201108011116?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/org.eclipse.jdt.core@3.7.1?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp@2.2.0.v201112011158?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/org.apache.jasper.glassfish@2.2.2.v201112011158?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp@2.2.0.v201112011158?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/javax.el@2.2.0.v201108011116?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/com.sun.el@2.2.0.v201108011116?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-annotations@8.1.22.v20160922?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-plus@8.1.22.v20160922?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-webapp@8.1.22.v20160922?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/javax.annotation@1.1.0.v201108011116?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/org.objectweb.asm@3.1.0.v200803061910?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-plus@8.1.22.v20160922?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.orbit/javax.transaction@1.1.1.v201105210645?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-webapp@8.1.22.v20160922?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-jndi@8.1.22.v20160922?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-jndi@8.1.22.v20160922?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-server@8.1.22.v20160922?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/javax.mail.glassfish@1.4.1.v201005082020?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/javax.annotation@1.1.0.v201108011116?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/org.objectweb.asm@3.1.0.v200803061910?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.gretty/gretty-runner-jetty9@3.0.3?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.gretty/gretty-runner-jetty@3.0.3?type=jar",
+                "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-server@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-servlet@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-webapp@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-security@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-jsp@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-annotations@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-plus@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.ow2.asm/asm@8.0.1?type=jar",
+                "pkg:maven/org.ow2.asm/asm-commons@8.0.1?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-server@9.2.26.v20180806?type=jar",
+            "dependsOn": [
+                "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-http@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-io@9.2.26.v20180806?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.2.26.v20180806?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-util@9.2.26.v20180806?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.2.26.v20180806?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.2.26.v20180806?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-util@9.2.26.v20180806?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.2.26.v20180806?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-security@9.2.26.v20180806?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.2.26.v20180806?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-server@9.2.26.v20180806?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.2.26.v20180806?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-xml@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-servlet@9.2.26.v20180806?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-xml@9.2.26.v20180806?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-util@9.2.26.v20180806?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-jsp@9.2.26.v20180806?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1.M0?type=jar",
+                "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+                "pkg:maven/javax.servlet.jsp/javax.servlet.jsp-api@2.3.1?type=jar",
+                "pkg:maven/org.glassfish.web/javax.servlet.jsp@2.3.2?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp.jstl@1.2.0.v201105211821?type=jar",
+                "pkg:maven/org.glassfish.web/javax.servlet.jsp.jstl@1.2.2?type=jar",
+                "pkg:maven/org.glassfish/javax.el@3.0.0?type=jar",
+                "pkg:maven/org.eclipse.jetty.orbit/org.eclipse.jdt.core@3.8.2.v20130121?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1.M0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/javax.servlet.jsp/javax.servlet.jsp-api@2.3.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.glassfish.web/javax.servlet.jsp@2.3.2?type=jar",
+            "dependsOn": ["pkg:maven/org.glassfish/javax.el@3.0.0?type=jar", "pkg:maven/javax.servlet.jsp/javax.servlet.jsp-api@2.3.1?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.glassfish/javax.el@3.0.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.glassfish.web/javax.servlet.jsp.jstl@1.2.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.orbit/org.eclipse.jdt.core@3.8.2.v20130121?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-annotations@9.2.26.v20180806?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-plus@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-webapp@9.2.26.v20180806?type=jar",
+                "pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar",
+                "pkg:maven/org.ow2.asm/asm@8.0.1?type=jar",
+                "pkg:maven/org.ow2.asm/asm-commons@8.0.1?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-plus@9.2.26.v20180806?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-webapp@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-jndi@9.2.26.v20180806?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-jndi@9.2.26.v20180806?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-util@9.2.26.v20180806?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.ow2.asm/asm@8.0.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.ow2.asm/asm-commons@8.0.1?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.ow2.asm/asm@8.0.1?type=jar",
+                "pkg:maven/org.ow2.asm/asm-tree@8.0.1?type=jar",
+                "pkg:maven/org.ow2.asm/asm-analysis@8.0.1?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.ow2.asm/asm-tree@8.0.1?type=jar",
+            "dependsOn": ["pkg:maven/org.ow2.asm/asm@8.0.1?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.ow2.asm/asm-analysis@8.0.1?type=jar",
+            "dependsOn": ["pkg:maven/org.ow2.asm/asm-tree@8.0.1?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.2.26.v20180806?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-annotations@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.2.26.v20180806?type=jar",
+                "pkg:maven/javax.websocket/javax.websocket-api@1.0?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.2.26.v20180806?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.2.26.v20180806?type=jar",
+                "pkg:maven/javax.websocket/javax.websocket-api@1.0?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.2.26.v20180806?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-util@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-io@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.2.26.v20180806?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.2.26.v20180806?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-util@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-io@9.2.26.v20180806?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.2.26.v20180806?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.2.26.v20180806?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-servlet@9.2.26.v20180806?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-http@9.2.26.v20180806?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.2.26.v20180806?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.2.26.v20180806?type=jar",
+                "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.gretty/gretty-runner-jetty93@3.0.3?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.gretty/gretty-runner-jetty@3.0.3?type=jar",
+                "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-server@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-servlet@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-webapp@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-security@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty/apache-jsp@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-annotations@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-plus@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.ow2.asm/asm@8.0.1?type=jar",
+                "pkg:maven/org.ow2.asm/asm-commons@8.0.1?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-server@9.3.28.v20191105?type=jar",
+            "dependsOn": [
+                "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-http@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-io@9.3.28.v20191105?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.3.28.v20191105?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-util@9.3.28.v20191105?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.3.28.v20191105?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.3.28.v20191105?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-util@9.3.28.v20191105?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.3.28.v20191105?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-security@9.3.28.v20191105?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.3.28.v20191105?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-server@9.3.28.v20191105?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.3.28.v20191105?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-xml@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-servlet@9.3.28.v20191105?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-xml@9.3.28.v20191105?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-util@9.3.28.v20191105?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/apache-jsp@9.3.28.v20191105?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-util@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1?type=jar",
+                "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+                "pkg:maven/org.mortbay.jasper/apache-jsp@8.0.33?type=jar",
+                "pkg:maven/org.eclipse.jdt.core.compiler/ecj@4.4.2?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.mortbay.jasper/apache-jsp@8.0.33?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1?type=jar",
+                "pkg:maven/org.mortbay.jasper/apache-el@8.0.33?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.mortbay.jasper/apache-el@8.0.33?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jdt.core.compiler/ecj@4.4.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-annotations@9.3.28.v20191105?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-plus@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-webapp@9.3.28.v20191105?type=jar",
+                "pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar",
+                "pkg:maven/org.ow2.asm/asm@8.0.1?type=jar",
+                "pkg:maven/org.ow2.asm/asm-commons@8.0.1?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-plus@9.3.28.v20191105?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-webapp@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-jndi@9.3.28.v20191105?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-jndi@9.3.28.v20191105?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-util@9.3.28.v20191105?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.3.28.v20191105?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-annotations@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.3.28.v20191105?type=jar",
+                "pkg:maven/javax.websocket/javax.websocket-api@1.0?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.3.28.v20191105?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.3.28.v20191105?type=jar",
+                "pkg:maven/javax.websocket/javax.websocket-api@1.0?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.3.28.v20191105?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-util@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-io@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.3.28.v20191105?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.3.28.v20191105?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-util@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-io@9.3.28.v20191105?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.3.28.v20191105?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.3.28.v20191105?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-servlet@9.3.28.v20191105?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-http@9.3.28.v20191105?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.3.28.v20191105?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.3.28.v20191105?type=jar",
+                "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.gretty/gretty-runner-jetty94@3.0.3?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.gretty/gretty-runner-jetty@3.0.3?type=jar",
+                "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-server@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-security@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/apache-jsp@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-annotations@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-plus@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.ow2.asm/asm@8.0.1?type=jar",
+                "pkg:maven/org.ow2.asm/asm-commons@8.0.1?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.24.v20191120?type=jar",
+            "dependsOn": [
+                "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-http@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-io@9.4.24.v20191120?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.24.v20191120?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-util@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-io@9.4.24.v20191120?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.24.v20191120?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.24.v20191120?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-util@9.4.24.v20191120?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.24.v20191120?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-security@9.4.24.v20191120?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.24.v20191120?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-server@9.4.24.v20191120?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.24.v20191120?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.24.v20191120?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.24.v20191120?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-util@9.4.24.v20191120?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/apache-jsp@9.4.24.v20191120?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-util@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1.2?type=jar",
+                "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+                "pkg:maven/org.mortbay.jasper/apache-jsp@8.5.40?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-annotations@9.4.24.v20191120?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.mortbay.jasper/apache-jsp@8.5.40?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1.2?type=jar",
+                "pkg:maven/org.mortbay.jasper/apache-el@8.5.40?type=jar",
+                "pkg:maven/org.eclipse.jdt/ecj@3.17.0?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.mortbay.jasper/apache-el@8.5.40?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jdt/ecj@3.17.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-annotations@9.4.24.v20191120?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-plus@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.24.v20191120?type=jar",
+                "pkg:maven/javax.annotation/javax.annotation-api@1.3?type=jar",
+                "pkg:maven/org.ow2.asm/asm@8.0.1?type=jar",
+                "pkg:maven/org.ow2.asm/asm-commons@8.0.1?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-plus@9.4.24.v20191120?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-jndi@9.4.24.v20191120?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-jndi@9.4.24.v20191120?type=jar",
+            "dependsOn": ["pkg:maven/org.eclipse.jetty/jetty-util@9.4.24.v20191120?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/javax.annotation/javax.annotation-api@1.3?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.4.24.v20191120?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-annotations@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.24.v20191120?type=jar",
+                "pkg:maven/javax.websocket/javax.websocket-api@1.0?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.4.24.v20191120?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.24.v20191120?type=jar",
+                "pkg:maven/javax.websocket/javax.websocket-client-api@1.0?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.24.v20191120?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-client@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-util@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-io@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.24.v20191120?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.24.v20191120?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty/jetty-http@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-io@9.4.24.v20191120?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.24.v20191120?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-util@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-io@9.4.24.v20191120?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.24.v20191120?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/javax.websocket/javax.websocket-client-api@1.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.24.v20191120?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.24.v20191120?type=jar",
+                "pkg:maven/org.eclipse.jetty/jetty-http@9.4.24.v20191120?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.24.v20191120?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.24.v20191120?type=jar",
+                "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.gretty/gretty-runner-tomcat85@3.0.3?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.gretty/gretty-runner-tomcat8plus@3.0.3?type=jar",
+                "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@8.5.49?type=jar",
+                "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@8.5.49?type=jar",
+                "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@8.5.49?type=jar",
+                "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@8.5.49?type=jar",
+                "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.gretty/gretty-runner-tomcat8plus@3.0.3?type=jar",
+            "dependsOn": ["pkg:maven/org.gretty/gretty-runner-tomcat@3.0.3?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.gretty/gretty-runner-tomcat@3.0.3?type=jar",
+            "dependsOn": ["pkg:maven/org.gretty/gretty-runner@3.0.3?type=jar", "pkg:maven/org.slf4j/log4j-over-slf4j@1.7.30?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.slf4j/log4j-over-slf4j@1.7.30?type=jar",
+            "dependsOn": ["pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@8.5.49?type=jar",
+            "dependsOn": ["pkg:maven/org.apache.tomcat/tomcat-annotations-api@8.5.49?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@8.5.49?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@8.5.49?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@8.5.49?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@8.5.49?type=jar",
+                "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@8.5.49?type=jar",
+                "pkg:maven/org.eclipse.jdt/ecj@3.12.3?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jdt/ecj@3.12.3?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@8.5.49?type=jar",
+            "dependsOn": ["pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@8.5.49?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.gretty/gretty-runner-tomcat9@3.0.3?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.gretty/gretty-runner-tomcat85@3.0.3?type=jar",
+                "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.34?type=jar",
+                "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.34?type=jar",
+                "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.34?type=jar",
+                "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.34?type=jar",
+                "pkg:maven/javax.servlet/javax.servlet-api@4.0.1?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.34?type=jar",
+            "dependsOn": ["pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.34?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.34?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.34?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.34?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.34?type=jar",
+                "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.34?type=jar",
+                "pkg:maven/org.eclipse.jdt/ecj@3.18.0?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jdt/ecj@3.18.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.34?type=jar",
+            "dependsOn": ["pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.34?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.springframework/springloaded@1.2.8.RELEASE?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.gretty/gretty-starter@3.0.3?type=jar",
+            "dependsOn": ["pkg:maven/org.gretty/gretty-core@3.0.3?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.gretty/gretty-core@3.0.3?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.codehaus.groovy/groovy@2.5.10?type=jar",
+                "pkg:maven/org.codehaus.groovy/groovy-json@2.5.10?type=jar",
+                "pkg:maven/org.codehaus.groovy/groovy-cli-commons@2.5.10?type=jar",
+                "pkg:maven/ch.qos.logback/logback-classic@1.1.3?type=jar",
+                "pkg:maven/commons-cli/commons-cli@1.4?type=jar",
+                "pkg:maven/commons-configuration/commons-configuration@1.10?type=jar",
+                "pkg:maven/commons-io/commons-io@2.4?type=jar",
+                "pkg:maven/org.apache.commons/commons-lang3@3.3.2?type=jar",
+                "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.60?type=jar",
+                "pkg:maven/org.springframework.boot/spring-boot-devtools@2.0.2.RELEASE?type=jar",
+                "pkg:maven/org.gretty/gretty-common@3.0.3?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/commons-configuration/commons-configuration@1.10?type=jar",
+            "dependsOn": ["pkg:maven/commons-lang/commons-lang@2.6?type=jar", "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/commons-lang/commons-lang@2.6?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.commons/commons-lang3@3.3.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.60?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.0.2.RELEASE?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.springframework.boot/spring-boot@2.0.2.RELEASE?type=jar",
+                "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.0.2.RELEASE?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.springframework.boot/spring-boot@2.0.2.RELEASE?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.springframework/spring-core@5.0.6.RELEASE?type=jar",
+                "pkg:maven/org.springframework/spring-context@5.0.6.RELEASE?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.springframework/spring-core@5.0.6.RELEASE?type=jar",
+            "dependsOn": ["pkg:maven/org.springframework/spring-jcl@5.0.6.RELEASE?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.springframework/spring-jcl@5.0.6.RELEASE?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.springframework/spring-context@5.0.6.RELEASE?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.springframework/spring-aop@5.0.6.RELEASE?type=jar",
+                "pkg:maven/org.springframework/spring-beans@5.0.6.RELEASE?type=jar",
+                "pkg:maven/org.springframework/spring-core@5.0.6.RELEASE?type=jar",
+                "pkg:maven/org.springframework/spring-expression@5.0.6.RELEASE?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.springframework/spring-aop@5.0.6.RELEASE?type=jar",
+            "dependsOn": [
+                "pkg:maven/org.springframework/spring-beans@5.0.6.RELEASE?type=jar",
+                "pkg:maven/org.springframework/spring-core@5.0.6.RELEASE?type=jar"
+            ]
+        },
+        {
+            "ref": "pkg:maven/org.springframework/spring-beans@5.0.6.RELEASE?type=jar",
+            "dependsOn": ["pkg:maven/org.springframework/spring-core@5.0.6.RELEASE?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.springframework/spring-expression@5.0.6.RELEASE?type=jar",
+            "dependsOn": ["pkg:maven/org.springframework/spring-core@5.0.6.RELEASE?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.0.2.RELEASE?type=jar",
+            "dependsOn": ["pkg:maven/org.springframework.boot/spring-boot@2.0.2.RELEASE?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/junit/junit@4.12?type=jar",
+            "dependsOn": ["pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"]
+        },
+        {
+            "ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+            "dependsOn": []
+        }
+    ]
+}

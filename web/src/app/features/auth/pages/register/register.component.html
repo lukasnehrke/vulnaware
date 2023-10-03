@@ -1,0 +1,23 @@
+<div class="auth-container">
+    <h1 class="mat-h1">New Account</h1>
+    <p class="mat-body-2">Already have an account? <a routerLink="/auth/login">Login</a></p>
+
+    <form class="auth-form" [formGroup]="form" (ngSubmit)="onSubmit()">
+        <mat-form-field appearance="outline">
+            <mat-label>Name</mat-label>
+            <input formControlName="name" matInput />
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>E-Mail</mat-label>
+            <input formControlName="email" matInput type="email" />
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input formControlName="password" matInput [type]="hidePassword ? 'password' : 'text'" />
+            <button mat-icon-button matSuffix (click)="hidePassword = !hidePassword" tabindex="-1" aria-hidden="true">
+                <mat-icon>{{ hidePassword ? "visibility_off" : "visibility" }}</mat-icon>
+            </button>
+        </mat-form-field>
+        <button mat-raised-button type="submit" color="primary">Sign Up</button>
+    </form>
+</div>

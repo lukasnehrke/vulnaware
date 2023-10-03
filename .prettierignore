@@ -1,0 +1,8 @@
+.idea/
+.husky/
+action/dist/
+build/
+gradle/
+web/.angular/
+web/dist/
+pnpm-lock.yaml

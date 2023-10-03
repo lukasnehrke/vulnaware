@@ -1,0 +1,62 @@
+@use "@angular/material" as mat;
+
+.issues {
+    @include mat.form-field-density(-2);
+
+    display: grid;
+    grid-template-columns: 200px 1fr;
+
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 24px 12px;
+
+    &__filter-container {
+        position: relative;
+    }
+
+    &__filter {
+        position: fixed;
+
+        .header {
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        section {
+            padding-bottom: 24px;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        grid-template-columns: 1fr;
+        &__filter {
+            display: none;
+        }
+    }
+
+    mat-paginator {
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+    }
+}
+
+.search {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .mat-h2 {
+        margin-bottom: 4px;
+    }
+}

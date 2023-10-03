@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="project-dashboard-header">
+        <mat-form-field appearance="outline" floatLabel="auto" subscriptSizing="dynamic">
+            <mat-icon matPrefix>search_outline</mat-icon>
+            <input [formControl]="filter" matInput placeholder="Search for projects..." />
+        </mat-form-field>
+        <button mat-flat-button color="primary" (click)="openNewProjectDialog()" [disabled]="isLoading">
+            <mat-icon>add</mat-icon>
+            New
+        </button>
+    </div>
+
+    <div *ngIf="isLoading" class="progress-container">
+        <mat-progress-spinner mode="indeterminate" color="primary" diameter="36" />
+    </div>
+
+    <mat-list role="list" *ngIf="projects && projects.length > 0">
+        <div role="listitem" class="project" *ngFor="let project of projects">
+            <mat-card appearance="outlined" [routerLink]="getProjectLink(project)">
+                <mat-card-content>
+                    <div class="project-row">
+                        <div class="project__title">
+                            <span class="mat-subtitle-2">{{ project.name }}</span>
+                            <span class="mat-body-2 subtitle">{{ project.slug }}</span>
+                        </div>
+                        <div class="project__tags">
+                            <span class="mat-body-2">{{ project.main?.metrics?.totalDependencies || 0 }} dependencies</span>
+                            <span class="mat-body-2 weak">Last updated {{ formatDate(project.updatedAt) }}</span>
+                        </div>
+                        <div class="project__metrics">
+                            <va-circular-metrics [metrics]="project.main?.metrics || null" />
+                        </div>
+                    </div>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </mat-list>
+
+    <div class="not-found" *ngIf="projects && projects.length === 0">
+        <img ngSrc="../../../../../assets/undraw_empty_street_re_atjq.svg" width="300" height="200" alt="empty street" priority />
+        <h2 class="mat-h2">No projects found</h2>
+        <p class="mat-body-2 weak">Update your search params or create a new project.</p>
+    </div>
+</div>

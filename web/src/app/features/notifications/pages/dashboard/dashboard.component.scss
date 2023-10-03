@@ -1,0 +1,11 @@
+.notification-card {
+    margin-top: 24px;
+}
+
+.mat-mdc-row {
+    cursor: pointer;
+
+    &.read .mdc-data-table__cell {
+        color: #969191;
+    }
+}

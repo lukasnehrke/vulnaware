@@ -1,0 +1,18 @@
+name: "Upload BOM"
+description: "Generates and uploads a software's BOM to VulnAware"
+inputs:
+    token:
+        description: "GitHub Token"
+        required: true
+    apiKey:
+        description: "VulnAware API Key"
+        required: true
+    server:
+        description: "VulnAware Server URL"
+        required: true
+    project:
+        description: "VulnAware Project Slug"
+        required: true
+runs:
+    using: "node16"
+    main: "dist/index.js"

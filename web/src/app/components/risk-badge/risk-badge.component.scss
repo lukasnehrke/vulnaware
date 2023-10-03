@@ -1,0 +1,21 @@
+.risk-badge--critical .badge {
+    color: #fff;
+    background-color: #b71c1c;
+}
+
+.risk-badge--high .badge {
+    color: #fff;
+    background-color: #f7931e;
+    border-color: #f7931e;
+}
+
+.risk-badge--medium .badge {
+    color: #4d4d4d;
+    background-color: #fcee21;
+    border-color: #fcee21;
+}
+
+.risk-badge--low .badge {
+    color: #fff;
+    background-color: #39b54a;
+}

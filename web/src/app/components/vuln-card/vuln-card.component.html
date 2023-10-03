@@ -1,0 +1,64 @@
+<mat-card class="vuln-card" appearance="outlined" [routerLink]="vuln.id">
+    <mat-card-content>
+        <div class="header">
+            <div>
+                <span class="mat-caption weak">
+                    VULNERABILITY |
+
+                    <a *ngIf="advisoryLink" [href]="advisoryLink" target="_blank" rel="noopener noreferrer">{{ vuln.advisory.id }}</a>
+                    <span *ngIf="!advisoryLink">{{ vuln.advisory.id }}</span>
+
+                    <span *ngIf="cve">
+                        <span> | </span>
+                        <a [href]="'https://www.cve.org/CVERecord?id=' + cve" target="_blank" rel="noopener noreferrer">
+                            {{ cve }}
+                        </a>
+                    </span>
+                </span>
+
+                <mat-card-title>
+                    {{ package }}
+                    <span *ngIf="cpe"
+                        >: <span class="mat-h3 weak">{{ cpe }}</span></span
+                    >
+                </mat-card-title>
+
+                <p class="mat-caption weak">
+                    {{ vuln.advisory.summary ?? " " }}
+                </p>
+            </div>
+            <div class="badges">
+                <div [ngClass]="'badge--' + severity" class="badge">
+                    {{ severity }}
+                    <span *ngIf="vuln.advisory.risk"> | {{ vuln.advisory.risk }}</span>
+                </div>
+                <span class="badge">{{ vuln.status }}</span>
+            </div>
+        </div>
+
+        <mat-divider></mat-divider>
+
+        <div class="footer">
+            <dl>
+                <dt>Detected</dt>
+                <dd>{{ formatRelative(vuln.createdAt) }}</dd>
+                <dt>Published</dt>
+                <dd>{{ published }}</dd>
+            </dl>
+
+            <dl>
+                <dt>Affected Packages</dt>
+                <dd>{{ affected }}</dd>
+
+                <dt>Fix</dt>
+                <dd>
+                    <div *ngIf="!fixes" class="with-icon" matTooltip="Try to search for alternatives.">
+                        No fix available
+                        <mat-icon>help_circle_outlined</mat-icon>
+                    </div>
+                    <span>{{ fixes }}</span>
+                </dd>
+            </dl>
+        </div>
+    </mat-card-content>
+</mat-card>

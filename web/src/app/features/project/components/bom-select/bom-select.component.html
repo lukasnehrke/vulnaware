@@ -1,0 +1,8 @@
+<div class="bom-select dense">
+    <div class="bom-clickable" (click)="onClick($event)"></div>
+    <mat-form-field appearance="outline" subscriptSizing="dynamic">
+        <mat-label>Branch/Version</mat-label>
+        <input matInput disabled readonly [value]="bom?.tag ?? ' '" />
+        <mat-icon matSuffix>expand_more</mat-icon>
+    </mat-form-field>
+</div>

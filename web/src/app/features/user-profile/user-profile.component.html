@@ -1,0 +1,12 @@
+<div class="container">
+    <h2>API-Key</h2>
+    <p>Click the (re-)generate your API key. Write it down, you can only see it once.</p>
+
+    <div class="row dense">
+        <mat-form-field appearance="outline" subscriptSizing="dynamic">
+            <mat-label>API-Key</mat-label>
+            <input [formControl]="apiKey" matInput readonly [disabled]="true" />
+        </mat-form-field>
+        <button mat-raised-button color="primary" (click)="generateKey()">Generate</button>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<h2 mat-dialog-title>New Project</h2>
+
+<mat-dialog-content class="mat-typography">
+    <mat-form-field appearance="outline">
+        <mat-label>Name</mat-label>
+        <input matInput [formControl]="name" type="text" required />
+        <mat-error *ngIf="name.invalid && (name.dirty || name.touched)">{{ error }}</mat-error>
+    </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <button mat-button [mat-dialog-close]="true">Cancel</button>
+    <button color="primary" mat-button (click)="createProject()" [disabled]="name.invalid">Create</button>
+</mat-dialog-actions>

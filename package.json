@@ -1,0 +1,19 @@
+{
+    "name": "vulnaware",
+    "private": true,
+    "packageManager": "pnpm@8.6.12",
+    "scripts": {
+        "prepare": "husky install",
+        "format": "prettier --write . **/*.java"
+    },
+    "lint-staged": {
+        "*": "prettier --ignore-unknown --write",
+        "**/*.java": "prettier --write"
+    },
+    "devDependencies": {
+        "husky": "^8.0.3",
+        "lint-staged": "^13.2.3",
+        "prettier": "^3.0.1",
+        "prettier-plugin-java": "^2.2.0"
+    }
+}

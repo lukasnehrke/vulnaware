@@ -1,0 +1,31 @@
+.sidenav {
+    height: calc(100vh - 49px);
+
+    &__nav {
+        width: 256px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        height: 100%;
+        width: 100%;
+    }
+
+    &__main {
+        flex-grow: 1;
+        overflow-y: scroll;
+    }
+}
+
+.footer {
+    padding: 24px;
+    border-top: 1px solid #e7e7e7;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: #fff;
+
+    @media (max-width: 800px) {
+        display: none;
+    }
+}

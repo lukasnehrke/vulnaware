@@ -1,0 +1,42 @@
+.headline {
+    display: flex;
+    align-items: center;
+
+    a {
+        color: inherit;
+    }
+
+    va-badge {
+        margin-left: 12px;
+    }
+}
+
+.project-header__item mat-icon {
+    transform: scale(0.9);
+}
+
+.grid {
+    display: grid;
+    gap: 24px;
+    grid-row-gap: 2px;
+    grid-template-columns: auto 1fr;
+    padding-bottom: 24px;
+
+    .left {
+        grid-column: 1;
+    }
+
+    .right {
+        grid-column: 2;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+}
+
+.container {
+    padding-bottom: 24px;
+}

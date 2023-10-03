@@ -1,0 +1,37 @@
+.va-header-wrapper {
+    height: 72px;
+    width: 100%;
+
+    .va-header {
+        z-index: 100;
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 72px;
+        padding: 0 20px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+        background-color: #fff;
+
+        h1,
+        .mat-h1 {
+            margin: 0;
+        }
+
+        &__actions {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        h1,
+        &__actions {
+            flex-grow: 1;
+            flex-basis: 0;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+<va-navbar />
+
+<mat-sidenav-container class="sidenav">
+    <mat-sidenav class="sidenav__nav" [opened]="isSideNavOpen" [mode]="'side'" [fixedInViewport]="false" [fixedTopGap]="56">
+        <mat-nav-list>
+            <nav-item *ngFor="let item of navItems" [title]="item.title" [link]="item.url" [query]="item.query" [icon]="item.icon" />
+        </mat-nav-list>
+    </mat-sidenav>
+    <div class="sidenav__content">
+        <main class="sidenav__main">
+            <router-outlet></router-outlet>
+        </main>
+    </div>
+</mat-sidenav-container>

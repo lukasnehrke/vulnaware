@@ -1,0 +1,49 @@
+<h2 mat-dialog-title>Upload SBOM</h2>
+
+<mat-dialog-content class="stepper-dense">
+    <mat-stepper orientation="vertical" [linear]="true" #stepper>
+        <mat-step [stepControl]="detailsForm" [editable]="!isUploading">
+            <form [formGroup]="detailsForm">
+                <ng-template matStepLabel>SBOM Information</ng-template>
+                <div class="field-container">
+                    <mat-form-field appearance="outline">
+                        <mat-label>Branch/Version</mat-label>
+                        <input matInput placeholder="Branch/Version (e.g. latest, v1.0)" formControlName="tag" required />
+                        <mat-hint>A SBOM with the same tag gets replaced.</mat-hint>
+                    </mat-form-field>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Description</mat-label>
+                        <textarea formControlName="description" matInput></textarea>
+                    </mat-form-field>
+                </div>
+                <div class="stepper-actions">
+                    <button mat-button matStepperNext>Next</button>
+                </div>
+            </form>
+        </mat-step>
+        <mat-step [editable]="!isUploading">
+            <ng-template matStepLabel>Upload File</ng-template>
+            <div class="upload-container">
+                <input type="file" formControlName="file" required (change)="onFileChange($event)" />
+            </div>
+            <div class="stepper-actions">
+                <button mat-button (click)="upload()">Upload</button>
+            </div>
+        </mat-step>
+        <mat-step tabindex="-1">
+            <ng-template matStepLabel>Analyze</ng-template>
+            <div class="analyze-wrapper">
+                <div *ngIf="!error" class="analyze-container">
+                    <mat-progress-spinner mode="indeterminate" diameter="24" />
+                    <span class="mat-body-2">Analyzing SBOM...</span>
+                </div>
+                <div *ngIf="error" class="analyze-container analyze--error">
+                    <span class="mat-body-2">Failed to parse SBOM: {{ error }}</span>
+                </div>
+            </div>
+            <div class="stepper-actions">
+                <button mat-button matDialogClose color="primary">Done</button>
+            </div>
+        </mat-step>
+    </mat-stepper>
+</mat-dialog-content>

@@ -1,0 +1,15 @@
+.auth-container {
+    padding: 48px 24px;
+    max-width: 600px;
+    margin: 0 auto;
+
+    .mat-h1 {
+        margin-bottom: 4px;
+    }
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}

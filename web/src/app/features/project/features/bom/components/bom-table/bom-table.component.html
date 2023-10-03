@@ -1,0 +1,104 @@
+<mat-card appearance="outlined">
+    <div class="header dense">
+        <mat-button-toggle-group class="header__actions" name="actions" aria-label="Actions">
+            <mat-button-toggle value="add" aria-label="Add">
+                <mat-icon>add</mat-icon>
+            </mat-button-toggle>
+            <mat-button-toggle value="remove" aria-label="Remove" disabled>
+                <mat-icon>remove</mat-icon>
+            </mat-button-toggle>
+        </mat-button-toggle-group>
+
+        <mat-form-field class="borderless" appearance="outline" floatLabel="auto" subscriptSizing="dynamic">
+            <input matInput placeholder="Search for components.." [formControl]="filter" [readonly]="view.value === 'table'" />
+        </mat-form-field>
+
+        <mat-button-toggle-group [formControl]="view" class="header__view" name="view" aria-label="View">
+            <mat-button-toggle value="list" aria-label="List View">
+                <mat-icon>reorder</mat-icon>
+            </mat-button-toggle>
+            <mat-button-toggle value="tree" aria-label="Table View">
+                <mat-icon>account_tree_outlined</mat-icon>
+            </mat-button-toggle>
+        </mat-button-toggle-group>
+    </div>
+
+    <mat-divider />
+
+    <div *ngIf="view.value === 'list'">
+        <table mat-table [dataSource]="components">
+            <ng-container matColumnDef="ecosystem">
+                <th mat-header-cell *matHeaderCellDef>Ecosystem</th>
+                <td mat-cell *matCellDef="let row">{{ toFriendlyEcosystem(row.ecosystem) }}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="name">
+                <th mat-header-cell *matHeaderCellDef>Name</th>
+                <td mat-cell *matCellDef="let row">{{ row.name }}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="version">
+                <th mat-header-cell *matHeaderCellDef>Version</th>
+                <td mat-cell *matCellDef="let row">
+                    <div class="version">
+                        {{ row.version }}
+                        <mat-icon *ngIf="row.package?.latestVersion" matTooltip="{{ row.package?.latestVersion }} is available">update</mat-icon>
+                    </div>
+                </td>
+            </ng-container>
+
+            <ng-container matColumnDef="license">
+                <th mat-header-cell *matHeaderCellDef>
+                    <div class="with-icon" matTooltip="This is not legal advice">
+                        License
+                        <mat-icon>help_circle_outlined</mat-icon>
+                    </div>
+                </th>
+                <td mat-cell *matCellDef="let row">
+                    {{ getLicenses(row) }}
+                </td>
+            </ng-container>
+
+            <ng-container matColumnDef="risk">
+                <th mat-header-cell *matHeaderCellDef>Risk</th>
+                <td mat-cell *matCellDef="let row">
+                    <div class="risk-badges">
+                        <va-badge *ngIf="!row.risk" text="Secure" />
+                        <a *ngIf="row.risk" [routerLink]="['../issues', row.risk.vulnerabilityId]">
+                            <va-badge
+                                *ngIf="row.risk"
+                                text="{{ getSeverity(row.risk.risk) }} | {{ row.risk.risk }}"
+                                [type]="getSeverity(row.risk.risk)"
+                            />
+                        </a>
+                    </div>
+                </td>
+            </ng-container>
+
+            <ng-container matColumnDef="homepage">
+                <th mat-header-cell *matHeaderCellDef></th>
+                <td mat-cell *matCellDef="let row">
+                    <div class="links-container">
+                        <a *ngIf="getHomepage(row)" [href]="getHomepage(row)?.url" target="_blank" rel="noopener noreferrer">
+                            <button mat-icon-button aria-label="Homepage">
+                                <mat-icon>home</mat-icon>
+                            </button>
+                        </a>
+                        <a *ngIf="getIssueTracker(row)" [href]="getIssueTracker(row)?.url" target="_blank" rel="noopener noreferrer">
+                            <button mat-icon-button aria-label="Issue Tracker">
+                                <mat-icon>bug_report</mat-icon>
+                            </button>
+                        </a>
+                    </div>
+                </td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+        </table>
+        <mat-divider />
+        <mat-paginator showFirstLastButtons="true" [length]="length" [pageSizeOptions]="[5, 10, 25]" [pageSize]="5" aria-label="Select page" />
+    </div>
+
+    <va-project-bom-tree *ngIf="isTreeView" />
+</mat-card>

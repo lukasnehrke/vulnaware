@@ -1,0 +1,17 @@
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    color: rgba(0, 0, 0, 0.8);
+
+    &__title {
+        font-size: 16px;
+        margin-left: 16px;
+    }
+
+    &__active,
+    &:hover {
+        color: #1e88e5;
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+}
