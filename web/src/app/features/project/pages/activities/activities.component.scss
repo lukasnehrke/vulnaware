@@ -1,0 +1,36 @@
+@use "@angular/material" as mat;
+
+.activity-container {
+    @include mat.form-field-density(-2);
+}
+
+.activity-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+
+    mat-form-field {
+        margin-right: 6px;
+    }
+
+    .activity-type-field {
+        width: 260px;
+    }
+}
+
+.activity-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+    .activity {
+        &__date {
+            color: rgba(0, 0, 0, 0.6);
+            margin-right: 12px;
+        }
+
+        &--highlight {
+            color: #1e88e5;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+<h1 mat-dialog-title>Edit vulnerability</h1>
+
+<mat-dialog-content class="dense">
+    <div class="tag-wrapper" [formGroup]="form">
+        <mat-form-field>
+            <mat-label>Favorite food</mat-label>
+            <mat-select formControlName="status">
+                <mat-option *ngFor="let status of statuses" [value]="status">
+                    {{ status }}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Comments</mat-label>
+            <textarea formControlName="comment" matInput></textarea>
+        </mat-form-field>
+    </div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Cancel</button>
+    <button mat-button color="primary" (click)="onSave()">Save</button>
+</mat-dialog-actions>

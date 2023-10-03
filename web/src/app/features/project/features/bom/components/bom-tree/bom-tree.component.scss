@@ -1,0 +1,32 @@
+mat-spinner {
+    margin: 0 12px;
+    &.hidden {
+        opacity: 0;
+    }
+}
+
+.no-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.name-col {
+    display: flex;
+    align-items: center;
+}
+
+.version {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+    mat-icon {
+        color: #1e88e5;
+        margin-left: 6px;
+        font-size: 18px;
+        height: 18px;
+        width: 18px;
+    }
+}

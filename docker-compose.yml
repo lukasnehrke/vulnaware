@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+    postgresd:
+        image: postgres:15
+        ports:
+            - "5432:5432"
+        environment:
+            - POSTGRES_USER=vulnaware-dev
+            - POSTGRES_PASSWORD=vulnaware-dev
+            - POSTGRES_DB=vulnaware
+        volumes:
+            - db:/var/lib/postgresql/data
+volumes:
+    db:
+        driver: local

@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="notification-header">
+        <a class="back" routerLink="/notifications">
+            <mat-icon>arrow_back</mat-icon>
+        </a>
+        <p *ngIf="notification" class="weak date">{{ formatDate(notification.createdAt) }}</p>
+    </div>
+
+    <div *ngIf="notification">
+        <div *ngIf="notification.type === 'welcome'">
+            <h1 class="mat-h1">Welcome to VulnAware!</h1>
+            <p>Hi</p>
+        </div>
+
+        <div *ngIf="notification.type === 'vuln'">
+            <h1 class="mat-h1">{{ notification.project?.name }} has new vulnerabilities</h1>
+            <p class="mat-body-2">
+                New vulnerabilities have been detected in your project
+                <a [routerLink]="['/projects', notification.project!.slug]">{{ notification.project!.slug }}</a
+                >.
+            </p>
+
+            <h2 class="mat-h2">Vulnerabilities</h2>
+            <table class="vuln-table" *ngIf="notification.vulnerabilities">
+                <tr>
+                    <th>ID</th>
+                    <th>Risk</th>
+                    <th>Description</th>
+                </tr>
+                <tr *ngFor="let item of notification.vulnerabilities">
+                    <td>{{ item.advisory.id }}</td>
+                    <td>{{ item.advisory.risk }}</td>
+                    <td>{{ item.advisory.summary }}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

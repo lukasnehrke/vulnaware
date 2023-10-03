@@ -1,0 +1,41 @@
+<va-header>
+    <h1 class="mat-h1">Activity</h1>
+</va-header>
+
+<div class="activity-container container">
+    <div class="activity-header">
+        <mat-form-field appearance="outline">
+            <mat-label>Choose a date</mat-label>
+            <input matInput [matDatepicker]="picker" placeholder="MM/DD/YYYY" />
+            <mat-datepicker-toggle matIconSuffix [for]="picker" />
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field class="activity-type-field" appearance="outline">
+            <mat-label>Type</mat-label>
+            <mat-select [(ngModel)]="selectedType" name="type">
+                <mat-option *ngFor="let type of types" [value]="type.value">
+                    {{ type.label }}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+    <ol class="activity-list">
+        <li class="activity" *ngFor="let activity of activities">
+            <span class="activity__date">{{ dateTime(activity.createdAt) }}</span>
+            <span class="activity__summary mat-body-2" [ngSwitch]="activity.type">
+                <span *ngSwitchCase="'PROJECT_CREATION'">The project has been created.</span>
+                <span *ngSwitchCase="'BOM_UPLOAD'">
+                    <span class="activity--highlight">{{ $any(activity).user?.name || "Unknown" }}</span>
+                    has uploaded a BOM to tag <span class="activity--highlight">{{ $any(activity).tag }}</span
+                    >.
+                </span>
+                <span *ngSwitchCase="'VULN'"
+                    >{{ $any(activity).amount }} new vulnerabilities have been detected in tag
+                    <span class="activity--highlight">{{ $any(activity).tag }}</span
+                    >.
+                </span>
+                <span *ngSwitchDefault> Something happened </span>
+            </span>
+        </li>
+    </ol>
+</div>

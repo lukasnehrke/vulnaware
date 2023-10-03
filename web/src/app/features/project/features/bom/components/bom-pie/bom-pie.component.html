@@ -1,0 +1,16 @@
+<mat-card appearance="outlined">
+    <mat-card-content>
+        <mat-button-toggle-group [formControl]="representation" aria-label="Representation">
+            <mat-button-toggle value="ecosystem">
+                <span class="mat-body-strong">ECOSYSTEM</span>
+            </mat-button-toggle>
+            <mat-button-toggle value="version">
+                <span class="mat-body-strong">VERSION</span>
+            </mat-button-toggle>
+        </mat-button-toggle-group>
+        <div class="pie-chart-wrapper">
+            <canvas baseChart class="chart" [data]="pieChartData" [type]="pieChartType" [options]="pieChartOptions" [plugins]="pieChartPlugins">
+            </canvas>
+        </div>
+    </mat-card-content>
+</mat-card>

@@ -1,0 +1,58 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.1.2'
+    id 'io.spring.dependency-management' version '1.1.2'
+    id 'io.freefair.lombok' version '8.1.0'
+}
+
+group = 'dev.lukasnehrke'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+dependencies {
+    implementation platform("com.google.cloud:spring-cloud-gcp-dependencies:4.7.1")
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
+    implementation 'org.springframework.session:spring-session-core'
+    implementation 'com.google.cloud:spring-cloud-gcp-starter-sql-postgresql'
+    runtimeOnly 'org.postgresql:postgresql'
+
+    // https://github.com/zalando/problem
+    implementation 'org.zalando:problem-spring-web:0.29.1'
+    implementation 'org.zalando:jackson-datatype-problem:0.27.1'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.security:spring-security-test'
+    implementation 'org.hibernate.validator:hibernate-validator:8.0.0.Final'
+
+    implementation 'org.spdx:java-spdx-library:1.1.7'
+    implementation 'org.spdx:spdx-jackson-store:1.1.6'
+    implementation 'org.spdx:spdx-tagvalue-store:1.1.6'
+    implementation 'org.cyclonedx:cyclonedx-core-java:7.3.2'
+    implementation 'com.github.package-url:packageurl-java:1.4.0'
+
+    implementation 'us.springett:cvss-calculator:1.4.1'
+    implementation 'us.springett:cpe-parser:2.0.2'
+
+    implementation 'com.auth0:java-jwt:4.4.0'
+    implementation 'org.apache.commons:commons-csv:1.10.0'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.2'
+
+    // currently used for comparing maven versions
+    implementation 'org.apache.maven:maven-artifact:3.9.4'
+
+    implementation platform('com.google.cloud:libraries-bom:26.14.0')
+    implementation 'com.google.cloud:google-cloud-storage'
+}
+
+configurations.configureEach {
+    exclude group: "org.apache.logging.log4j", module: "log4j-slf4j18-impl"
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}

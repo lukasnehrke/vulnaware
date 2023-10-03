@@ -1,0 +1,16 @@
+<div class="auth-container">
+    <h1 class="mat-h1">Login</h1>
+    <p class="mat-body-2">No account yet? <a routerLink="/auth/register">Create account</a></p>
+
+    <form class="auth-form" [formGroup]="form" (ngSubmit)="onSubmit()">
+        <mat-form-field appearance="outline">
+            <mat-label>E-Mail</mat-label>
+            <input formControlName="email" matInput type="email" required />
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input matInput formControlName="password" type="password" required />
+        </mat-form-field>
+        <button mat-raised-button type="submit" color="primary">Login</button>
+    </form>
+</div>

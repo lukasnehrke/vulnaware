@@ -1,0 +1,45 @@
+<header class="navbar-wrapper">
+    <nav class="navbar">
+        <span class="navbar__title mat-subtitle-1">
+            <button mat-icon-button class="navbar__menu" [ngClass]="{ hidden: !showMenu }" (click)="sideNavToggle()">
+                <mat-icon>menu</mat-icon>
+            </button>
+            <a routerLink="/">VulnAware</a>
+            <span *ngIf="project">
+                <span class="separator">/</span>
+                <a [routerLink]="'/projects/' + project.slug">{{ project.name }}</a>
+            </span>
+        </span>
+        <div class="navbar__actions">
+            <div class="navbar__desktop">
+                <button mat-icon-button disabled aria-hidden="true">
+                    <mat-icon>dark_mode_outline</mat-icon>
+                </button>
+                <button mat-icon-button disabled aria-label="Help">
+                    <mat-icon>help_outline</mat-icon>
+                </button>
+            </div>
+
+            <button *ngIf="user" mat-icon-button routerLink="/notifications" class="notifications-button" aria-label="Notifications">
+                <mat-icon>notifications_outline</mat-icon>
+                <div *ngIf="unread > 0" class="notifications-button__indicator"></div>
+            </button>
+
+            <ng-container *ngIf="user">
+                <button mat-button [matMenuTriggerFor]="menu" class="navbar__avatar" aria-label="My Account">
+                    {{ getName() }}
+                </button>
+                <mat-menu #menu="matMenu">
+                    <button mat-menu-item routerLink="/profile">
+                        <mat-icon>account_circle</mat-icon>
+                        <span>My Account</span>
+                    </button>
+                    <button mat-menu-item (click)="logout()">
+                        <mat-icon>logout</mat-icon>
+                        <span>Logout</span>
+                    </button>
+                </mat-menu>
+            </ng-container>
+        </div>
+    </nav>
+</header>

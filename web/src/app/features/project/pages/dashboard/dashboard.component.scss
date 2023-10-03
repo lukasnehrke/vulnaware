@@ -1,0 +1,79 @@
+@use "@angular/material" as mat;
+
+.project-dashboard-header {
+    @include mat.form-field-density(-2);
+
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px;
+
+    mat-form-field {
+        flex-grow: 1;
+        margin-right: 12px;
+    }
+
+    .mat-mdc-button-base {
+        height: 48px;
+    }
+}
+
+.project-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.project {
+    margin: 8px 0;
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+
+        .subtitle {
+            color: #0009;
+        }
+    }
+
+    &__tags {
+        display: flex;
+        flex-direction: column;
+
+        @media (max-width: 600px) {
+            display: none;
+        }
+    }
+
+    &__metrics {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    &__title,
+    &__metrics {
+        flex-grow: 1;
+        flex-basis: 0;
+    }
+}
+
+.subheader {
+    display: flex;
+    align-items: center;
+
+    mat-icon {
+        font-size: 22px;
+        margin-right: 6px;
+    }
+}
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .mat-h2 {
+        margin-bottom: 4px;
+    }
+}

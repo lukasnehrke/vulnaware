@@ -1,0 +1,40 @@
+mat-form-field {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.stepper-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.upload-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 120px;
+    border: 1px dashed #ccc;
+    margin-bottom: 12px;
+}
+
+.analyze-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px 0;
+
+    .analyze-container {
+        display: flex;
+        align-items: center;
+
+        mat-progress-spinner {
+            margin-right: 12px;
+        }
+    }
+
+    .analyze--error {
+        color: #c1272d;
+    }
+}

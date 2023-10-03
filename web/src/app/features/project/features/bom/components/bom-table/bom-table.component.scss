@@ -1,0 +1,78 @@
+@use "@angular/material" as mat;
+
+.header {
+    display: flex;
+
+    mat-form-field {
+        flex-grow: 1;
+        border-left: solid 1px #e0e0e0;
+        border-right: solid 1px #e0e0e0;
+    }
+
+    mat-button-toggle-group,
+    mat-button-toggle {
+        border: none;
+        border-radius: 0;
+    }
+}
+
+.version {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+    mat-icon {
+        color: #1e88e5;
+        margin-left: 6px;
+        font-size: 18px;
+        height: 18px;
+        width: 18px;
+    }
+}
+
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.risk-badges {
+    va-badge {
+        margin: 0 4px;
+    }
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    a {
+        color: inherit;
+    }
+
+    button {
+        width: 28px !important;
+        height: 28px !important;
+        padding: 0 !important;
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+
+        & > *[role="img"] {
+            width: 18px;
+            height: 18px;
+            font-size: 18px;
+
+            svg {
+                width: 18px;
+                height: 18px;
+            }
+        }
+
+        .mat-mdc-button-touch-target {
+            width: 32px !important;
+            height: 32px !important;
+        }
+    }
+}

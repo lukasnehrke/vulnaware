@@ -1,0 +1,8 @@
+.row {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 240px 1fr;
+    grid-auto-rows: 1fr;
+    grid-column-gap: 8px;
+    margin-bottom: 12px;
+}

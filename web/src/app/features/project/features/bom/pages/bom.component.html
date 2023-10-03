@@ -1,0 +1,18 @@
+<va-header>
+    <h1 class="mat-h1">Components</h1>
+    <va-bom-select [force]="true" />
+    <div class="va-header__actions">
+        <button mat-icon-button aria-label="Upload" matTooltip="Upload SBOM" (click)="openUploadDialog()">
+            <mat-icon>upload</mat-icon>
+        </button>
+        <button mat-icon-button aria-label="Export" matTooltip="Export Components" (click)="openExportDialog()">
+            <mat-icon>download</mat-icon>
+        </button>
+    </div>
+</va-header>
+
+<div class="table-container">
+    <va-project-bom-metrics *ngIf="bom" [metrics]="bom.metrics" />
+
+    <va-project-bom-table />
+</div>

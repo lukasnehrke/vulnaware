@@ -1,0 +1,70 @@
+@use "@angular/material" as mat;
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+a {
+    color: #039be5;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.container {
+    padding: 24px 12px 0;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.weak {
+    color: #0009;
+}
+
+.mat-mdc-text-field-wrapper {
+    background-color: #fff;
+}
+
+.mdc-button__label {
+    text-transform: uppercase;
+}
+
+.dense mat-form-field {
+    @include mat.all-component-densities(-2);
+}
+
+.denser mat-form-field {
+    @include mat.all-component-densities(-3);
+}
+
+.borderless {
+    .mdc-notched-outline__leading,
+    .mdc-notched-outline__notch,
+    .mdc-notched-outline__trailing {
+        border: 0 !important;
+    }
+}
+
+mat-dialog .mat-vertical-content {
+    padding-bottom: 0;
+}
+
+.with-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+
+    .mat-icon {
+        transform: scale(0.6);
+        color: #0009;
+    }
+}

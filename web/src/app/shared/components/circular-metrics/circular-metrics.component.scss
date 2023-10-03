@@ -1,0 +1,36 @@
+.metric-container {
+    display: flex;
+    align-items: center;
+}
+
+.metric {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: #efefef;
+    border: 2px solid #efefef;
+    margin: 0 1px;
+
+    &--critical {
+        color: #b71c1c;
+        border-color: #b71c1c;
+    }
+
+    &--high {
+        color: #f57c00;
+        border-color: #f57c00;
+    }
+
+    &--medium {
+        color: #fbc02d;
+        border-color: #fbc02d;
+    }
+
+    &--low {
+        color: #43a047;
+        border-color: #43a047;
+    }
+}

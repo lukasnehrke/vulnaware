@@ -1,0 +1,19 @@
+<h1 mat-dialog-title>Select Branch/Version</h1>
+
+<mat-dialog-content class="dense">
+    <div class="tag-wrapper">
+        <mat-form-field appearance="outline" subscriptSizing="dynamic">
+            <mat-icon matPrefix>search_outline</mat-icon>
+            <input [formControl]="filter" matInput placeholder="Search for tags.." />
+        </mat-form-field>
+        <mat-selection-list [formControl]="bom" [multiple]="false">
+            <mat-list-option *ngFor="let bom of boms" [value]="bom.tag" togglePosition="before">
+                {{ bom.tag }}
+            </mat-list-option>
+        </mat-selection-list>
+    </div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Cancel</button>
+    <button mat-button color="primary" [disabled]="bom.invalid" (click)="onTagSelect()">Select</button>
+</mat-dialog-actions>

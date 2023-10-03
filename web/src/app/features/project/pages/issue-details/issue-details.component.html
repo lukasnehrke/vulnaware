@@ -1,0 +1,87 @@
+<va-header>
+    <div class="headline">
+        <h1 class="mat-h1">
+            <a [routerLink]="['/projects', project?.slug, 'issues']">Issues</a>
+            <span> / </span>
+            <a [routerLink]="['/projects', project?.slug, 'issues', vuln?.id]">{{ id }}</a>
+        </h1>
+        <a *ngIf="isOSV" [href]="'https://osv.dev/vulnerability/' + id" target="_blank" rel="noopener noreferrer">
+            <va-badge text="OSV" />
+        </a>
+        <a *ngIf="!isOSV" [href]="'https://nvd.nist.gov/vuln/detail/' + id" target="_blank" rel="noopener noreferrer">
+            <va-badge text="NVD" />
+        </a>
+    </div>
+    <div></div>
+    <div class="project-header__item">
+        <button mat-icon-button (click)="openEditDialog()">
+            <mat-icon>edit</mat-icon>
+        </button>
+    </div>
+</va-header>
+
+<div *ngIf="vuln" class="container">
+    <section>
+        <h2 class="mat-h2">Vulnerability Status</h2>
+        <div class="grid">
+            <p class="left mat-subtitle-2">Detected</p>
+            <p>{{ formatRelative(vuln.createdAt) }}</p>
+
+            <p class="left mat-subtitle-2">Status</p>
+            <p>{{ vuln.status }}</p>
+
+            <p class="left mat-subtitle-2">Comments</p>
+            <p *ngIf="vuln?.comment">{{ vuln.comment }}</p>
+            <p *ngIf="!vuln?.comment"><em>No comments.</em></p>
+
+            <p class="left mat-subtitle-2">Affected Components</p>
+            <ul>
+                <li *ngFor="let item of vuln?.components!">
+                    {{ item.name }}{{ item.version ? "@" + item.version : "" }}
+                    <span *ngIf="item.fixedVersion">--> {{ item.name }}@{{ item.fixedVersion }}</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="mat-h2">Vulnerability Details</h2>
+        <div class="grid">
+            <p class="left mat-subtitle-2">ID</p>
+            <p>{{ vuln.advisory.id }}</p>
+
+            <div *ngIf="vuln.advisory.osv?.aliases">
+                <p class="left mat-subtitle-2">Aliases</p>
+                <span *ngFor="let alias of vuln.advisory.osv?.aliases!">{{ alias }}</span>
+            </div>
+
+            <p class="left mat-subtitle-2">Published</p>
+            <p>{{ published }}</p>
+
+            <div *ngIf="vuln.advisory.osv?.modified">
+                <p class="left mat-subtitle-2">Modified</p>
+                <p>{{ vuln.advisory.osv?.modified }}</p>
+            </div>
+
+            <p class="left mat-subtitle-2">Description</p>
+            <div [innerHTML]="description"></div>
+        </div>
+    </section>
+
+    <section *ngIf="vuln?.advisory?.osv?.references">
+        <h2 class="mat-h2">References</h2>
+        <ul>
+            <li *ngFor="let item of vuln?.advisory?.osv?.references!">
+                <a [href]="item.url" target="_blank" rel="noopener noreferrer">{{ item.url }}</a>
+            </li>
+        </ul>
+    </section>
+    <section *ngIf="vuln?.advisory?.nvd?.cve?.references">
+        <h2 class="mat-h2">References</h2>
+        <ul>
+            <li *ngFor="let item of vuln?.advisory?.nvd?.cve?.references!">
+                <a [href]="item.url" target="_blank" rel="noopener noreferrer">{{ item.url }}</a>
+            </li>
+        </ul>
+    </section>
+</div>
