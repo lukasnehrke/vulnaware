@@ -38,7 +38,7 @@
             <ul>
                 <li *ngFor="let item of vuln?.components!">
                     {{ item.name }}{{ item.version ? "@" + item.version : "" }}
-                    <span *ngIf="item.fixedVersion">--> {{ item.name }}@{{ item.fixedVersion }}</span>
+                    <span *ngIf="item.fixedVersion"> --> {{ item.name }}&commat;{{ item.fixedVersion }} </span>
                 </li>
             </ul>
         </div>
