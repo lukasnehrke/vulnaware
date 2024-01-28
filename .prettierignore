@@ -1,6 +1,7 @@
 .idea/
 .husky/
 action/dist/
+bom-examples/
 build/
 gradle/
 web/.angular/
