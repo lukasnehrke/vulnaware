@@ -23,15 +23,12 @@ async function run() {
     formData.append("file", blob, "bom.spdx.json");
     formData.append("description", "Uploaded from GitHub Actions");
 
-    const ref = encodeURIComponent(context.ref);
-    const res = await axios.post(`${server}/api/v1/${project}/analyze/main`, formData, {
+    await axios.post(`${server}/api/v1/${project}/analyze/main`, formData, {
         headers: {
             Accept: "application/json",
             "X-API-Key": apiKey,
         },
     });
-
-    console.log(res);
 }
 
 run();
