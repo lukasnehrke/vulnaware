@@ -7,6 +7,10 @@ The project is written in Java (Spring Boot) and TypeScript (Angular).
 
 ## User Interface
 
+![Issues Page](./.github/images/issues.png)
+
+![Components Page](./.github/images/components.png)
+
 ## License
 
 [Apache-2.0](./LICENSE)
