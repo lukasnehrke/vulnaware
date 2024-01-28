@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: VulnAware
+message: >-
+    If you use or reference this software, please cite it using the
+    metadata from this file.
+type: software
+authors:
+    - given-names: Lukas
+      family-names: Nehrke
+      email: lukasnehrke@protonmail.com
+repository-code: "https://github.com/lukasnehrke/vulnaware"
+license: "Apache-2.0"
